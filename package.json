@@ -1,0 +1,26 @@
+{
+  "name": "rastmobile_app_api",
+  "version": "1.0.0",
+  "description": "Rastmobile Task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "sequelize",
+    "mysql"
+  ],
+  "author": "Mertcan Üreten",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.2",
+    "sequelize": "^5.21.2"
+  }
+}
