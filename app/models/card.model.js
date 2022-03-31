@@ -9,6 +9,9 @@ module.exports = (sequelize, Sequelize) => {
     badge: {
       type: Sequelize.STRING
     },
+    order: {
+      type: Sequelize.INTEGER
+    },
     color: {
       type: Sequelize.STRING
     },
