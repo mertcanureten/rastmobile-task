@@ -18,6 +18,7 @@ exports.create = (req, res) => {
     title: req.body.title,
     description: req.body.description,
     color: req.body.color,
+    badge: req.body.badge,
     boardId: req.body.boardId,
     status: req.body.status ? req.body.status : "Backlog" // if status is empty status be backlog
   };

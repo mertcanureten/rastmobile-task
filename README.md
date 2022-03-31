@@ -4,11 +4,11 @@ Projenin sadece back-end kısmı yapılmıştır. RESTful standartları gözetil
 ```
 npm install
 ```
-gerekli paketleri kuruyoruz.
+komutu ile gerekli paketleri kuruyoruz.
 ```
 app/config/db.config.js
 ```
-içindeki ilgili alanları düzenledikten sonra 
+içindeki ilgili alanları düzenledikten sonra DB alanıyla aynı isimde bir veritabanı oluşturulmalı.
 
 ```
 node server.js
