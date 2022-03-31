@@ -239,6 +239,11 @@
 									"key": "boardId",
 									"value": "1",
 									"type": "text"
+								},
+								{
+									"key": "badge",
+									"value": "Kategori",
+									"type": "text"
 								}
 							]
 						},
@@ -290,32 +295,42 @@
 								{
 									"key": "title",
 									"value": "card baslik 1536",
-									"type": "text"
+									"type": "text",
+									"disabled": true
 								},
 								{
 									"key": "color",
 									"value": "#992e2e",
-									"type": "text"
+									"type": "text",
+									"disabled": true
 								},
 								{
 									"key": "description",
 									"value": "yapılacak iş buraya yazılacak bla bla asdasd asda sdas asd",
-									"type": "text"
+									"type": "text",
+									"disabled": true
 								},
 								{
 									"key": "status",
 									"value": "in-progress",
-									"type": "text"
+									"type": "text",
+									"disabled": true
 								},
 								{
 									"key": "boardId",
 									"value": "1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "badge",
+									"value": "Kategori 2",
 									"type": "text"
 								}
 							]
 						},
 						"url": {
-							"raw": "http://localhost:8081/api/cards/10",
+							"raw": "http://localhost:8081/api/cards/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -324,7 +339,7 @@
 							"path": [
 								"api",
 								"cards",
-								"10"
+								"1"
 							]
 						}
 					},
